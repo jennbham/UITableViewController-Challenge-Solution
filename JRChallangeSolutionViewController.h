@@ -1,5 +1,5 @@
 //
-//  JRViewController.h
+//  JRChallangeSolutionViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Jennifer Rinauro on 11/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JRViewController : UIViewController
+@interface JRChallangeSolutionViewController : UITableViewController
 
 @end

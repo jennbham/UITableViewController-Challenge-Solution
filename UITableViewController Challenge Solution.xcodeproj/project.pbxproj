@@ -14,13 +14,13 @@
 		DFC7E1BD183194A1009E31DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7E1BC183194A1009E31DE /* main.m */; };
 		DFC7E1C1183194A1009E31DE /* JRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7E1C0183194A1009E31DE /* JRAppDelegate.m */; };
 		DFC7E1C4183194A1009E31DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC7E1C2183194A1009E31DE /* Main.storyboard */; };
-		DFC7E1C7183194A1009E31DE /* JRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7E1C6183194A1009E31DE /* JRViewController.m */; };
 		DFC7E1C9183194A1009E31DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC7E1C8183194A1009E31DE /* Images.xcassets */; };
 		DFC7E1D0183194A1009E31DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC7E1CF183194A1009E31DE /* XCTest.framework */; };
 		DFC7E1D1183194A1009E31DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC7E1B0183194A1009E31DE /* Foundation.framework */; };
 		DFC7E1D2183194A1009E31DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC7E1B4183194A1009E31DE /* UIKit.framework */; };
 		DFC7E1DA183194A1009E31DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC7E1D8183194A1009E31DE /* InfoPlist.strings */; };
 		DFC7E1DC183194A1009E31DE /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7E1DB183194A1009E31DE /* UITableViewController_Challenge_SolutionTests.m */; };
+		DFC7E1E71831E5B2009E31DE /* JRChallangeSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7E1E61831E5B2009E31DE /* JRChallangeSolutionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		DFC7E1BF183194A1009E31DE /* JRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRAppDelegate.h; sourceTree = "<group>"; };
 		DFC7E1C0183194A1009E31DE /* JRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRAppDelegate.m; sourceTree = "<group>"; };
 		DFC7E1C3183194A1009E31DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFC7E1C5183194A1009E31DE /* JRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRViewController.h; sourceTree = "<group>"; };
-		DFC7E1C6183194A1009E31DE /* JRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRViewController.m; sourceTree = "<group>"; };
 		DFC7E1C8183194A1009E31DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFC7E1CE183194A1009E31DE /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC7E1CF183194A1009E31DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DFC7E1D7183194A1009E31DE /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		DFC7E1D9183194A1009E31DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFC7E1DB183194A1009E31DE /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		DFC7E1E51831E5B2009E31DE /* JRChallangeSolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRChallangeSolutionViewController.h; path = ../JRChallangeSolutionViewController.h; sourceTree = "<group>"; };
+		DFC7E1E61831E5B2009E31DE /* JRChallangeSolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRChallangeSolutionViewController.m; path = ../JRChallangeSolutionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				DFC7E1BF183194A1009E31DE /* JRAppDelegate.h */,
 				DFC7E1C0183194A1009E31DE /* JRAppDelegate.m */,
 				DFC7E1C2183194A1009E31DE /* Main.storyboard */,
-				DFC7E1C5183194A1009E31DE /* JRViewController.h */,
-				DFC7E1C6183194A1009E31DE /* JRViewController.m */,
+				DFC7E1E51831E5B2009E31DE /* JRChallangeSolutionViewController.h */,
+				DFC7E1E61831E5B2009E31DE /* JRChallangeSolutionViewController.m */,
 				DFC7E1C8183194A1009E31DE /* Images.xcassets */,
 				DFC7E1B7183194A1009E31DE /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFC7E1C1183194A1009E31DE /* JRAppDelegate.m in Sources */,
-				DFC7E1C7183194A1009E31DE /* JRViewController.m in Sources */,
 				DFC7E1BD183194A1009E31DE /* main.m in Sources */,
+				DFC7E1E71831E5B2009E31DE /* JRChallangeSolutionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
